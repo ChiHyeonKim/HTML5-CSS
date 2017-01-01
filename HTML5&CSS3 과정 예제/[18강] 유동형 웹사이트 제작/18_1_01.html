@@ -1,0 +1,170 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>		
+			
+			* {
+				margin: 0; padding: 0;
+				list-style: none;
+				color: #343434;
+			}
+			
+			#wrap {
+				width: 80%;
+				margin: 0 auto;
+				text-align: center;
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			header .logoWrap {
+				width: 100%;
+				height: 100px;
+				font-size: 2em;
+				border:1px solid #dddddd;
+				box-sizing: border-box;
+				line-height: 100px;
+			}
+			
+			nav { 
+				width: 100%;
+				background-color:#0000ff;
+			}
+			nav ul { 
+				overflow: hidden;
+				margin: 0 auto;
+			}
+			nav ul li {
+				float: left;
+				height: 30px;
+				line-height: 30px;
+				width: 19%;
+				margin: 0.5%;
+				background-color: #cccccc;
+				color: #ffffff;
+			}
+			
+			section {
+				width: 100%;
+				background-color: #00ff00;
+				overflow: hidden;
+			}
+			
+			
+			section article {
+				float: left;
+				width: 70%;
+			}
+			
+			section article div:nth-child(1) {
+				height: 100px;
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			section article div:nth-child(2) {
+				height: 150px;
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			section aside {
+				float: left;
+				width: 30%;
+			}
+			
+			section aside div {
+				background-color: #cccccc;
+			}
+			
+			section aside div:nth-child(1) {
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			section aside div:nth-child(1) img {
+				max-width: 100%;
+			}
+			
+			section aside div:nth-child(2) {
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			section aside div:nth-child(2) img {
+				min-width: 100%;
+				max-width: 100%;
+			}
+			
+			section aside div:nth-child(3) {
+				border: 1px solid #dddddd;
+				box-sizing: border-box;
+			}
+			
+			section aside div:nth-child(3) img {
+				
+			}
+			
+			footer {
+				width: 100%;
+				height: 100px;
+				line-height: 100px;
+				margin: 0 auto;
+				font-size: 2em;
+				border: 1px solid #dddddd;
+				box-sizing: borer-box;
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<!-- 헤더 -->
+			<header>
+				<div class="logoWrap">
+					logo img
+				</div>
+			</header>
+			
+			<!-- lnb -->
+			<nav>
+				<ul>
+					<li>lnb1</li>
+					<li>lnb2</li>
+					<li>lnb3</li>
+					<li>lnb4</li>
+					<li>lnb5</li>
+				</ul>
+			</nav>
+			
+			<!-- content -->
+			<section>
+				<article>
+					<div>
+						article1
+					</div>
+					<div>
+						article2
+					</div>
+				</article>
+				<aside>
+					<div>
+						<img src="rec/img/tacademybn.jpg">
+					</div>
+					<div>
+						<img src="rec/img/tacademybn.jpg">
+					</div>
+					<div>
+						<img src="rec/img/tacademybn.jpg">
+					</div>
+				</aside>
+			</section>
+			
+			<!-- footer -->
+			<footer>
+				footer
+			</footer>
+		</div>
+	</body>
+</html>
